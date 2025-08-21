@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautiful Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="glass">
+    <h1>📝 Beautiful Notes</h1>
+    <div class="menu-bar">
+      <input type="text" id="search" placeholder="Search notes...">
+      
+      <details>
+        <summary>Sort</summary>
+        <ul>
+          <li onclick="sortNotes('newest')">Newest</li>
+          <li onclick="sortNotes('oldest')">Oldest</li>
+          <li onclick="sortNotes('title')">Title</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>More</summary>
+        <ul>
+          <li onclick="clearNotes()">Clear All</li>
+        </ul>
+      </details>
+    </div>
+  </header>
+
+  <main id="notes-container"></main>
+
+  <button id="add-btn">＋</button>
+
+  <!-- Fullscreen view -->
+  <div id="fullscreen-view" class="fullscreen">
+    <div class="fullscreen-content glass">
+      <button class="close-btn" onclick="closeFullscreen()">✕</button>
+      <h2 id="fullscreen-title">Note Title</h2>
+      <p id="fullscreen-text">Note content goes here...</p>
+    </div>
+  </div>
+
+  <!-- Add note modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content glass">
+      <h2>Add Note</h2>
+      <input type="text" id="note-title" placeholder="Title">
+      <textarea id="note-text" placeholder="Write your note..."></textarea>
+      <button onclick="saveNote()">Save</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
