@@ -1,6 +1,6 @@
 # 🌸 Beautiful Notes - Where Ideas Meet Elegance 🌸
 
-![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Mobile-blue)
+![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Mobile-blue)(https://bismay-exe.github.io/Beautiful-Notes/)
 
 ---
 Your thoughts deserve more than just plain text. Beautiful Notes is a thoughtfully crafted note-taking app that blends minimal design, smooth performance, and intuitive features to make capturing your ideas a delightful experience. Whether it’s a quick reminder, a daily journal entry, or your next big idea, Beautiful Notes helps you keep everything organized beautifully.
