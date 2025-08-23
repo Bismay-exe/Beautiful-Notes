@@ -6,6 +6,9 @@
 </p>
 
 <p align="center">
+  <a href="https://bismay-exe.github.io/Beautiful-Notes/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Website-Beautiful%20Notes-36BCF7?style=for-the-badge&logo=code&logoColor=white" />
+  </a>
   <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript&logoColor=black" />
